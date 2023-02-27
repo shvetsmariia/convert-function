@@ -4,7 +4,6 @@ function convertMilesToKilometers (mi) {
   
   return (mi * km); 
 }
-console.log(convertMilesToKilometers(1));
 
 function convertKilometersToMiles (km) {
   const kilometersInOneMile = 1.609344; 
@@ -12,4 +11,3 @@ function convertKilometersToMiles (km) {
   
   return (km * mi); 
 }
-console.log(convertKilometersToMiles(1));
